@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Jesús Toledo</title>
@@ -13,10 +13,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <h1>Hello world</h1>
+        <div class="container nav__container">
+            <a href="#" class="logo">Jesús Toledo</a>
+            <button class="nav__toggle" id="nav__toggle">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     
+    <script src="javascript/hamburguerButton.js"></script>
 </body>
 </html>

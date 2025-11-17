@@ -1,0 +1,30 @@
+
+
+
+@media (min-width: 850px){
+    .nav{
+        position: static;
+        width: auto;
+        display: flex;
+        overflow: visible;
+        max-height: none;
+        justify-content: flex-end;
+        align-items: center;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+
+        & ul {
+            display: flex;
+            gap: 5px;
+
+            & li {
+                margin: 0;
+            }
+        }
+    }
+    .nav__toggle {
+        display: none;
+    }
+    
+}
