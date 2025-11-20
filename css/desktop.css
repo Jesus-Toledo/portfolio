@@ -2,6 +2,9 @@
 
 
 @media (min-width: 850px){
+    .container {
+        padding: 0;
+    }
     .nav{
         position: static;
         width: auto;
@@ -25,6 +28,16 @@
     }
     .nav__toggle {
         display: none;
+    }
+    .hero__content {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 100px;
+        gap: 50px;
+    }
+    .titulo {
+        font-size: 1.8rem;
     }
     
 }
