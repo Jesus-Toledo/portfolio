@@ -42,6 +42,26 @@
     margin: 0 auto;
     padding: 0 20px;
   }
+  .btn {
+    padding: 12px 28px;
+    background-color: var(--accent-blue); 
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    background-color: var(--accent-red);
+    transform: translateY(-2px);
+  }
+  .btn:active {
+    transform: translateY(0);
+    background-color: #3237b0;
+  }
 
 
   /**    header section   */
@@ -212,4 +232,49 @@
 .fa-brands {
   font-size: 18px;
   color: var(--white);
+}
+
+/**    About me section   */
+.about {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__image {
+  padding: 20px 0;
+
+  & img {
+    border-radius: 12px;
+  }
+}
+
+.about__description {
+  padding: 20px 0;
+
+  & h2 {
+    text-align: center;
+    margin: 10px;
+  }
+}
+.about__text {
+  margin: 10px 0;
+  letter-spacing: 1px;
+
+   & p {
+    padding: 5px;
+    font-size: 16px;
+    color: var(--text);
+   }
+}
+
+.about__buttons {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+  & a {
+    text-decoration: none;
+  }
 }
