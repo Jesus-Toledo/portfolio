@@ -333,3 +333,46 @@
   justify-content: center;
   gap: 10px;
 }
+
+/**   section experience  */
+
+.experience {
+  padding: 80px 10%;
+  background: var(--bg);
+  min-height: 100vh;
+}
+.experience h2 {
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+  margin-bottom: 15px;
+  color: var(--text);
+}
+.container__experience {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+}
+.formacion, .experiencia {
+  flex: 1;
+}
+.formacion {
+  margin-bottom: 30px;
+}
+.formacion h3, .experiencia h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--text);
+  border-bottom: 2px solid #CCC;
+  padding-bottom: 5px;
+}
+.formacion ul, .experiencia ul {
+  list-style: none;
+  padding: 0;
+}
+.formacion li, .experiencia li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: var(--text);
+}
