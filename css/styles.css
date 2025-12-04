@@ -208,14 +208,14 @@
   font-weight: 700;
   padding: 6px 0;
 }
-.hero__social {
+.social__media {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 15px;
   padding-top: 20px;
 }
-.hero__social a {
+.social__media a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,3 +376,124 @@
   line-height: 1.6;
   color: var(--text);
 }
+
+
+/**   Contact section  */
+
+.contact {
+  padding: 80px 10%;
+  background: var(--color-bg);
+  text-align: center;
+  min-height: 90vh;
+}
+.contact h2 {
+  font-size: 25px;
+  margin-top: 30px;
+  color: var(--text);
+}
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+.contact__left {
+  flex: 1 1 400px;
+  background: url(/images/contacto.jpg) center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.contact__left .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+
+  & p {
+      line-height: 2;
+      text-align: start;
+  }
+}
+.contact__left h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.redes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.redes a {
+  color: var(--color-accent1);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+.redes a:hover {
+  color: #FF6B6B;
+}
+
+.contact__right {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.contact__right h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--color-text);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+textarea {
+  resize: none;
+  height: 120px;
+  font-family: "Inter", sans-serif;
+}
+
+.contact__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+/*footer seccion*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #121212;
+  color: #fff;
+}
+
+.footer__der {
+  display: none;
+}
+ 
