@@ -382,7 +382,7 @@
 
 .contact {
   padding: 80px 10%;
-  background: var(--color-bg);
+  background: var(--bg);
   text-align: center;
   min-height: 90vh;
 }
@@ -413,7 +413,7 @@
   background: rgba(0, 0, 0, 0.5);
   padding: 40px;
   border-radius: 10px;
-  color: #fff;
+  color: var(--white);
   text-align: center;
 
   & p {
@@ -432,13 +432,13 @@
   gap: 10px;
 }
 .redes a {
-  color: var(--color-accent1);
+  color: var(--accent-blue);
   text-decoration: none;
   font-size: 1.1rem;
   transition: color 0.3s;
 }
 .redes a:hover {
-  color: #FF6B6B;
+  color: var(--accent-red);
 }
 
 .contact__right {
@@ -447,14 +447,14 @@
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-  background: #fff;
+  background: var(--bg);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .contact__right h3 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: var(--color-text);
+  color: var(--text);
 }
 form {
   display: flex;
@@ -489,8 +489,8 @@ textarea {
   justify-content: center;
   align-items: center;
   padding: 20px 60px;
-  background-color: #121212;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .footer__der {
